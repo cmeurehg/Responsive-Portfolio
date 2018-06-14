@@ -456,7 +456,7 @@ textarea {
         background-color: #4aaaa5;
         width: 100%;
         margin: 0px;
-        text-align: center;
+        text-align: left;
         font-size: 30px;
     }
     
@@ -478,7 +478,7 @@ textarea {
     }
 
     h4 {
-        text-align: center;
+        text-align: left;
     }
 
     img{
@@ -532,8 +532,9 @@ textarea {
         float: none;
         border: 0;
         padding: 0px;
-        
+        width: 15%;
         margin: 0px;
+    
         
     }
 }
