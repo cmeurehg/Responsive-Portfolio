@@ -147,7 +147,7 @@ h2 {
 h4 {
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
     color: grey;
-    font-size: 14px;
+    font-size: 18px;
     padding: 10px;
     padding-top: 0px;
     margin-left: 40px;
@@ -276,7 +276,7 @@ textarea {
 .line3 {
     clear: both;
     height: 3px;
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
     margin-top: 50px;
     border: none;
     padding: 0px;
@@ -297,9 +297,10 @@ textarea {
             background-color: white;
             font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
             color: grey;
-            text-align: center;
+            text-align: left;
             padding: 15px;
             margin-top: 0px;
+            margin-left: 80px;
             border: none;
                        
         }
