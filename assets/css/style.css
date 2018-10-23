@@ -179,6 +179,7 @@ h4 {
     padding: 0px;
     margin-top: 0px;
     margin-left: 0px;
+   
     
 }
 
@@ -227,7 +228,6 @@ h4 {
 
 
 
-
 #app-analogy-tag{
     position: absolute;
     background-color: #1739a7;
@@ -239,6 +239,16 @@ h4 {
     margin-top: 150px;
     margin-left: 40px;
     width: 187px;
+}
+
+#octo-app {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+   
 }
 
 #bootcamp-tag{
