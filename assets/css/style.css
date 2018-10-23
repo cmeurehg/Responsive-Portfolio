@@ -173,7 +173,7 @@ h4 {
 }
 
 
-.image-container {
+#image-container-app, #image-container-pair, #image-container-trains, #image-container-bootcamp, #image-container-node {
 
     float: left;
     padding: 0px;
@@ -181,6 +181,52 @@ h4 {
     margin-left: 0px;
     
 }
+
+#text1, #text2, #text3, #text4, #text5 {
+    visibility: hidden;
+    float: left;
+    position:absolute;
+    /* padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px; */
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    color: grey;
+    background-color:lightgrey;
+    font-size: 16px;
+    width: 400px;
+    line-height: 20px;
+    
+}
+
+
+#image-container-app:hover #text1 {
+    visibility: visible;
+   
+
+}
+
+#image-container-pair:hover #text2 {
+    visibility: visible;
+    
+}
+
+#image-container-trains:hover #text3{
+    visibility: visible;
+    
+}
+
+#image-container-bootcamp:hover #text4 {
+    visibility: visible;
+   
+}
+
+#image-container-node:hover #text5 {
+    visibility: visible;
+    
+}
+
+
+
 
 #app-analogy-tag{
     position: absolute;
